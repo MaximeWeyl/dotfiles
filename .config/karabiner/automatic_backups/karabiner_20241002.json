@@ -211,23 +211,6 @@
                                     { "key_code": "a" }
                                 ],
                                 "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "simultaneous": [
-                                        { "key_code": "j" },
-                                        { "key_code": "k" }
-                                    ],
-                                    "simultaneous_options": {
-                                        "detect_key_down_uninterruptedly": true,
-                                        "key_down_order": "insensitive",
-                                        "key_up_order": "insensitive",
-                                        "to_after_key_up": []
-                                    }
-                                },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 50 },
-                                "to": [{ "key_code": "quote" }],
-                                "type": "basic"
                             }
                         ]
                     }
